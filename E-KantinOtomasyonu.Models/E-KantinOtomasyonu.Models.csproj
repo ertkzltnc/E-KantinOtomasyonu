@@ -87,11 +87,11 @@
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Supplier.cs" />
     <Compile Include="Entities\Unit.cs" />
+    <Compile Include="Identity\Role.cs" />
+    <Compile Include="Identity\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Identity\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
