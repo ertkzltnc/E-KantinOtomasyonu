@@ -11,7 +11,7 @@ namespace E_KantinOtomasyonu.Models.Entities
     {
         public decimal UnitPrice { get; set; }
         public double Quantity { get; set; }
-        public virtual OrderDetail orderDetail { get; set; }
+        public virtual OrderHeader OrderHeader { get; set; }
         public virtual Product product { get; set; }
     }
 }
