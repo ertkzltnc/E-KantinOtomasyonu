@@ -428,6 +428,8 @@
     <Content Include="Content\pdf\mamunur.pdf" />
     <Content Include="Content\README.md" />
     <None Include="packages.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_viewstart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
