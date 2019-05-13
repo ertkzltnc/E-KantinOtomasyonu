@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-KantinOtomasyonu.Web", "E-KantinOtomasyonu.Web\E-KantinOtomasyonu.Web.csproj", "{3800CDB8-2964-48F7-918F-3365C134C227}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-KantinOtomasyonu.Models", "E-KantinOtomasyonu.Models\E-KantinOtomasyonu.Models.csproj", "{4057F3AD-A964-44D3-8B38-80CC45B3E6A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-KantinOtomasyonu.BLL", "E-KantinOtomasyonu.BLL\E-KantinOtomasyonu.BLL.csproj", "{F8C22255-573E-4F58-8B12-F29D72B48D98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-KantinOtomasyonu.DAL", "E-KantinOtomasyonu.DAL\E-KantinOtomasyonu.DAL.csproj", "{88EC1241-486C-4391-9AF9-38C2679FD504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-KantinOtomasyonu.Web", "E-KantinOtomasyonu.Web\E-KantinOtomasyonu.Web.csproj", "{AD28F866-1EF3-43EA-AE20-AACA370A0D06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3800CDB8-2964-48F7-918F-3365C134C227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3800CDB8-2964-48F7-918F-3365C134C227}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3800CDB8-2964-48F7-918F-3365C134C227}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3800CDB8-2964-48F7-918F-3365C134C227}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4057F3AD-A964-44D3-8B38-80CC45B3E6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4057F3AD-A964-44D3-8B38-80CC45B3E6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4057F3AD-A964-44D3-8B38-80CC45B3E6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{88EC1241-486C-4391-9AF9-38C2679FD504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88EC1241-486C-4391-9AF9-38C2679FD504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88EC1241-486C-4391-9AF9-38C2679FD504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD28F866-1EF3-43EA-AE20-AACA370A0D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD28F866-1EF3-43EA-AE20-AACA370A0D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD28F866-1EF3-43EA-AE20-AACA370A0D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD28F866-1EF3-43EA-AE20-AACA370A0D06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

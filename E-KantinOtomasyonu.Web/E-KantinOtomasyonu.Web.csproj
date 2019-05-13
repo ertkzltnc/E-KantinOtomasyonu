@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3800CDB8-2964-48F7-918F-3365C134C227}</ProjectGuid>
+    <ProjectGuid>{AD28F866-1EF3-43EA-AE20-AACA370A0D06}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -401,7 +401,6 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.cs" />
-    <Compile Include="Controllers\CanteenController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -431,8 +430,7 @@
     <Content Include="Content\README.md" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\_viewstart.cshtml" />
-    <Content Include="Views\Canteen\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -458,7 +456,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50691</DevelopmentServerPort>
+          <DevelopmentServerPort>50295</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:50691/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
