@@ -1,4 +1,5 @@
 ﻿using E_KantinOtomasyonu.DAL;
+using E_KantinOtomasyonu.Models.Abstracts;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Core.Objects;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace E_KantinOtomasyonu.BLL.Repository
 {
-    public class Repository<T> where T:class
+    public abstract class Repository<T> where T:class
     {
         IObjectContextAdapter _context;
         IObjectSet<T> _objectSet;
