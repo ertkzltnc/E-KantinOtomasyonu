@@ -10,6 +10,7 @@ namespace E_KantinOtomasyonu.Web.Controllers
 {
     public class CanteenController : Controller
     {
+        
         // GET: Canteen
         public ActionResult Index()
         {
@@ -36,9 +37,20 @@ namespace E_KantinOtomasyonu.Web.Controllers
         {
             try
             {
-                // TODO: Add insert logic here
+                var canteenRepo = new CanteenRepo();
+                Canteen canteen = new Canteen
+                {
+                    CanteenName = collection["CanteenName"],
+                    Location = collection["Location"],
+                    Phone = collection["Phone"]
 
-                return RedirectToAction("Index");
+                };
+                if (canteenRepo.Add(canteen))
+                {
+                    return RedirectToAction("Index");
+
+                }
+                return View();
             }
             catch
             {

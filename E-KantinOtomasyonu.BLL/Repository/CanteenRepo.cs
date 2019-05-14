@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace E_KantinOtomasyonu.BLL.Repository
 {
-    public class CanteenRepo:Repository<Canteen>
+    public class CanteenRepo : Repository<Canteen>
     {
-
+        
     }
 }
